@@ -183,13 +183,14 @@ a {
 @media (max-width: 768px) {
   .menu_all {
     flex-direction: column;
+    max-width: 100%;
   }
   .menu {
-    width: 100%;
+    max-width: 100%;
   }
   .right_text {
     max-width: 100%;
-    margin: 0px 12px 48px 12px;
+    /* margin: 0px 12px 48px 12px; */
   }  
 }
 
